@@ -1,0 +1,266 @@
+/* metal-mania-regular - latin */
+@font-face {
+  font-family: 'Metal Mania';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('fonts/metal-mania-v22-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/metal-mania-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-TRDH-Friz:before {
+  content: "\e900";
+}
+.icon-TRDH-Cafe:before {
+  content: "\e901";
+}
+.icon-music:before {
+  content: "\e911";
+}
+.icon-quotes-left:before {
+  content: "\e977";
+}
+.icon-quotes-right:before {
+  content: "\e978";
+}
+.icon-mail2:before {
+  content: "\ea84";
+}
+.icon-amazon:before {
+  content: "\ea87";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-spotify:before {
+  content: "\ea94";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-soundcloud:before {
+  content: "\eac3";
+}
+.icon-soundcloud2:before {
+  content: "\eac4";
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; } 
+} 
+
+
+body {
+  background-color: black;
+  background-image: url("../images/Artwork-paintsplash2.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: top;
+  /*background-attachment: fixed;*/
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;  font-style: normal;
+  font-size: 0.875em;
+}
+
+h1 {
+  background-color: none;
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;  font-style: normal;
+  font-size: 3em;  
+  text-shadow: 2px 1px black;
+}  
+
+h2 {
+  background-color: none;
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;  font-style: normal;
+  font-size: 2em;   
+  text-shadow: 2px 1px black;
+}  
+
+
+h3 {
+  background-color: none;
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;  font-style: normal;
+  font-size: 1.5em;  
+  /*text-shadow: 2px 1px black;*/
+}  
+
+
+/* Music Services Icons */
+h4 {
+  background-color: none;
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;  font-style: normal;
+  font-size: 2.5em;
+  max-width: 100%;
+  
+} 
+
+/* Social Icons */
+h5 {
+  background-color: none;
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;  font-style: normal;
+  font-size: 1.5em;
+  max-width: 100%;
+} 
+
+/* Logo */
+.logo {
+  background-color: none;
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;  font-style: normal;
+  font-size: 18em;
+  text-align: center;
+  text-shadow: 3px 1px black;
+  max-width: 100%;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img { max-width: 100%; }
+
+.video {
+    overflow:hidden;
+    position:relative;
+    padding: 0 0 50.625% 0;
+    height:0;
+}
+
+.video iframe {
+    position:absolute;  
+    top:0;
+    left:5%; 
+    width:90%;
+    height:100%;
+}
+
+.parent {
+  width: 100%;
+} 
+
+.outer-div
+{
+     padding: 0px;
+     text-align: center;
+}
+.inner-div
+{
+     display: inline-block;
+     padding: 0px; 
+}
+
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+    text-shadow: 0px 0px 25px white;    
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-shadow: 0px 0px 25px white;    
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 333px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  transition: all 150ms linear;
+  /*border: 5px solid white;*/
+  /*border-radius: 4px;*/
+  /*padding: 5px;*/
+}
+
+.image:hover {
+  /*box-shadow: 0 0 5px 3px white;*/
+  transform: scale(1.05);
+  /*transition: all linear 0.3;*/
+}
+
+
+
+
+
+
+
+
+
+

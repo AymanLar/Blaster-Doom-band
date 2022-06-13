@@ -1,0 +1,322 @@
+/* metal-mania-regular - latin */
+@font-face {
+  font-family: 'Metal Mania';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('fonts/metal-mania-v22-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('fonts/metal-mania-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Metal Mania', cursive !important;
+  font-family: 'Roboto Mono', monospace;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Friz:before {
+  content: "\e900";
+}
+.icon-Cafe:before {
+  content: "\e901";
+}
+.icon-music:before {
+  content: "\e911";
+}
+.icon-quotes-left:before {
+  content: "\e977";
+}
+.icon-quotes-right:before {
+  content: "\e978";
+}
+.icon-mail2:before {
+  content: "\ea84";
+}
+.icon-amazon:before {
+  content: "\ea87";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-spotify:before {
+  content: "\ea94";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-youtube2:before {
+  content: "\ea9e";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-soundcloud:before {
+  content: "\eac3";
+}
+.icon-soundcloud2:before {
+  content: "\eac4";
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; } 
+} 
+
+
+
+body {
+  background-color: black;
+  background-image: url("../images/Tape-background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  /*background-attachment: fixed;*/
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-size: 0.875em;
+}
+
+h1 {
+  background-color: none;
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;  font-style: normal;
+  font-size: 3em;
+}  
+
+h2 {
+  background-color: none;
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;  font-style: normal;
+  font-size: 2.5em;
+}  
+
+
+h3 {
+  background-color: none;
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;  font-style: normal;
+  font-size: 1.5em;
+}  
+
+
+/* Music Services Icons */
+h4 {
+  background-color: none;
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-size: 2.5em;
+} 
+
+/* Social Icons */
+h5 {
+  background-color: none;
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;
+  font-style: normal;
+  font-size: 1.5em;
+  max-width: 100%;
+} 
+
+/* Logo */
+.logo {
+  background-color: none;
+  color: white;
+  font-family: 'Metal Mania', cursive;
+  font-family: 'Roboto Mono', monospace;  font-style: normal;
+  font-size: 18em;
+  text-align: center;
+  max-width: 100%;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img { max-width: 100%; }
+
+.parent {
+  width: 100%;
+} 
+
+.outer-div
+{
+     padding: 10px;
+     text-align: center;
+}
+.inner-div
+{
+     display: inline-block;
+     padding: 10px; 
+}
+
+#buttons_hz {
+width: 300px;
+height: auto;
+overflow: hidden;
+}
+#buttons_hz img {
+display: inline;
+margin: 0px;
+}
+
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    text-shadow: 0px 0px 20px rgba(0, 140, 186, 0.5);
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+ #tape {
+    width: 70%; 
+    height: 80%; 
+    padding: 0px; 
+    top: 0px;
+    bottom: 0px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+
+
+} 
+
+#walkman_container {
+    width: 533px;
+    height: 400px;
+    max-width: 100%;
+    padding: 0px; 
+    top: 0px;
+    bottom: 0px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+#walkman_container:after {
+    content: '';
+    display: block;
+    background: url('../images/Tape-walkman.png') no-repeat top left transparent;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    z-index: 10;
+    box-sizing: border-box;
+
+}
+#walkman_container player {
+    position: absolute;
+    padding-bottom: 0%;
+    top: 0px; /* Adjust top position */
+    left: 0px; /* Adjust left position */
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    z-index: 5;
+    box-sizing: border-box;
+}
+
+#button_container {
+    width: 356px; /* Adjust  image width */
+    height: 70px; /* Adjust  image height */
+    padding: 0px; 
+    top: 0px;
+    bottom: 0px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#button_container:after {
+    content: '';
+    display: block;
+    background: url('../images/Tape-buttonbar.png') no-repeat top left transparent;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    z-index: -1;
+    box-sizing: border-box;
+}
+#button_container bar {
+    position: absolute;
+    padding-bottom: 0%;
+    top: 0px; /* Adjust top position */
+    left: 0px; /* Adjust left position */
+    right: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    z-index: 5;
+    box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 533px; 
+  /* max-width: 1000px; */
+  position: relative;
+  margin: auto;
+}
+
+
+
+
